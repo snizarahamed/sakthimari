@@ -1,0 +1,141 @@
+/* body{
+    background-image: url(../images/background.jpg);;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.head-part, .sec{
+    display: flex;
+}
+.head-part1, .head-part2{
+    flex-basis: 50%;
+}
+.sec1{
+    flex-basis: 20%;
+}
+.sec2{
+    flex-basis: 50%;
+}
+.head-part2{
+    padding-top: 30px;
+}
+.head-part1{
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+.container{
+    
+    width: 963px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.header{
+    padding: 10px 0 40px;
+    line-height: 1.5;
+    padding-bottom: 40px;
+}
+/* h2{
+    background-color: blue;
+    padding: 10px 10px;
+    margin-bottom: 10px ;
+    color: white;
+    border-radius: 5px;
+} */
+/* p{
+    margin-bottom: 10px;
+}
+.section{
+    margin-bottom: 10px;
+    border-color:gray;
+}
+.section1{
+    line-height: 1.5;
+}
+.section1 ul{
+    margin-left: 40px;
+}
+.section ul li{
+    line-height: 2;
+}
+.table-style{
+    border: solid 1px #ccc;
+    padding: 10px 20px;
+    width: 100%;
+}
+.table-style tr td, .table-style tr th{
+    border: solid #ccc 1px;
+    padding: 10px;
+}
+.table-style tr th{
+    background-color: #f1f1f1;
+} */
+/* .form-design{
+    line-height: 1.5;
+}
+.form-design label{
+    margin-left: 10px;
+}
+.few{
+    margin-left:400px ;
+}
+.form-design button{
+    color: white;
+    background-color: blue;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-left: 400px;
+}
+.pht{
+    border-radius: 50%;
+}  */
+
+body{
+    background-image: url(../images/background.jpg);;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    margin: 20px 150px 20px 150px ;
+    background-color:  rgb(251 255 0 / 69%);
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 6px;
+    
+}
+
+.container_slide{
+    margin: 20px 150px 20px 150px ;
+    background-color: rgb(251 255 0 / 69%);
+    padding: 10px 40px;
+    margin-top: 20px;
+    border-radius: 6px;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .container{
+        margin: 20px 10px 20px 10px ;
+        padding: 5px 20px;
+    }
+    .container_slide{
+        margin: 20px 10px 20px 10px ;
+        padding: 1px 10px;
+    }
+    .Title_Mobile{
+        font-size: 28px;
+        text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    }
+    .sakthi_mari_title{
+        font-size: 42px;
+        color: rgb(1, 82, 12);
+        text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    }
+  }
